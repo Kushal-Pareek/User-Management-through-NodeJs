@@ -7,5 +7,6 @@ exports.addUser = async (user) => {
     email: user.email
   });
   
+  
   return await newUser.save();
 };
